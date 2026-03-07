@@ -1,0 +1,149 @@
+/* =========================
+   Custom dark mode theme
+   ========================= */
+
+body.dark-mode {
+  background-color: #0b1020;
+  color: #e8ecf3;
+}
+
+/* Main content areas */
+body.dark-mode .page,
+body.dark-mode .page__content,
+body.dark-mode .initial-content,
+body.dark-mode .archive {
+  background-color: #0b1020;
+  color: #e8ecf3;
+}
+
+/* Top navigation */
+body.dark-mode .masthead {
+  background-color: #0a0f1d;
+  border-bottom: 1px solid #27304a;
+}
+
+body.dark-mode .greedy-nav {
+  background-color: #0a0f1d;
+}
+
+body.dark-mode .greedy-nav a,
+body.dark-mode .masthead__menu-item a {
+  color: #e8ecf3;
+}
+
+body.dark-mode .greedy-nav a:hover,
+body.dark-mode .masthead__menu-item a:hover {
+  color: #7db3ff;
+}
+
+/* Sidebar / author box */
+body.dark-mode .sidebar,
+body.dark-mode .author__content,
+body.dark-mode .author__urls-wrapper,
+body.dark-mode .author__urls {
+  background-color: #131a2e;
+  color: #e8ecf3;
+}
+
+body.dark-mode .author__name,
+body.dark-mode .author__bio,
+body.dark-mode .author__urls a {
+  color: #e8ecf3;
+}
+
+/* General links */
+body.dark-mode a {
+  color: #7db3ff;
+}
+
+body.dark-mode a:hover {
+  color: #a9ccff;
+}
+
+/* Headings */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #f3f6fb;
+}
+
+/* Muted text */
+body.dark-mode .page__meta,
+body.dark-mode .archive__item-excerpt,
+body.dark-mode .author__bio,
+body.dark-mode .notice,
+body.dark-mode small {
+  color: #b6bfd3;
+}
+
+/* Cards, notices, boxes */
+body.dark-mode .archive__item,
+body.dark-mode .notice,
+body.dark-mode .feature__wrapper,
+body.dark-mode .entries-list .list__item,
+body.dark-mode .taxonomy__section {
+  background-color: #131a2e;
+  border: 1px solid #27304a;
+}
+
+/* Tables */
+body.dark-mode table {
+  color: #e8ecf3;
+  border-color: #27304a;
+}
+
+body.dark-mode th,
+body.dark-mode td {
+  border-color: #27304a;
+}
+
+body.dark-mode thead {
+  background-color: #131a2e;
+}
+
+/* Code blocks */
+body.dark-mode pre,
+body.dark-mode code {
+  background-color: #11182b;
+  color: #e8ecf3;
+}
+
+/* Buttons / pills */
+body.dark-mode .btn,
+body.dark-mode button,
+body.dark-mode .pill {
+  background-color: #131a2e;
+  color: #e8ecf3;
+  border: 1px solid #27304a;
+}
+
+body.dark-mode .btn:hover,
+body.dark-mode button:hover,
+body.dark-mode .pill:hover {
+  background-color: #1c2847;
+  color: #ffffff;
+}
+
+/* Active filter/button state */
+body.dark-mode .pill.is-active,
+body.dark-mode button.is-active {
+  background-color: #7db3ff;
+  color: #0b1020;
+  border-color: #7db3ff;
+}
+
+/* PDF iframe/object wrapper if you use one */
+body.dark-mode iframe,
+body.dark-mode object {
+  background-color: #ffffff;
+  border: 1px solid #27304a;
+  border-radius: 8px;
+}
+
+/* Horizontal rules */
+body.dark-mode hr {
+  border-color: #27304a;
+}

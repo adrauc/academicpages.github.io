@@ -1,0 +1,248 @@
+/* ===============================================
+   Publications page styling
+=============================================== */
+
+/* Highlight PI name in author list */
+.pi-name {
+  font-weight: 600;
+}
+
+.filter-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+}
+
+.filter-label {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  opacity: 0.75;
+}
+
+.filter-group {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.pill {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  transition: 0.2s ease;
+}
+
+.pill:hover {
+  border-color: rgba(0, 0, 0, 0.35);
+}
+
+.pill.is-active {
+  background: #0b5fff;
+  border-color: #0b5fff;
+  color: #fff;
+}
+
+.filter-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.pill-clear {
+  border-style: dashed;
+}
+
+/* ===============================================
+   Publications list
+=============================================== */
+
+.pub-item {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  column-gap: 1rem;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.pub-year {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding-top: 0;
+}
+
+.pub-main {
+  min-width: 0;
+}
+
+.pub-title,
+.pub-authors,
+.pub-journal {
+  margin: 0;
+}
+
+.pub-title {
+  margin-bottom: 0.2rem;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.pub-authors {
+  margin-bottom: 0.1rem;
+  line-height: 1.45;
+  font-size: 0.92rem;
+}
+
+.pub-journal {
+  margin-bottom: 0.35rem;
+  line-height: 1.4;
+  font-size: 0.92rem;
+  font-style: italic;
+}
+
+.pub-icons {
+  margin-top: 0.15rem;
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pub-icons a {
+  font-size: 0.95rem;
+  color: #6c757d;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.pub-icons a:hover {
+  color: #000;
+}
+
+/* ===============================================
+   Dark mode
+=============================================== */
+
+html[data-theme="dark"] .pill,
+body.dark .pill,
+body.dark-theme .pill {
+  border-color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+html[data-theme="dark"] .pill:hover,
+body.dark .pill:hover,
+body.dark-theme .pill:hover {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+html[data-theme="dark"] .pill.is-active,
+body.dark .pill.is-active,
+body.dark-theme .pill.is-active {
+  background: #0b5fff;
+  border-color: #0b5fff;
+  color: #fff;
+}
+
+html[data-theme="dark"] .filter-label,
+body.dark .filter-label,
+body.dark-theme .filter-label,
+html[data-theme="dark"] #filterCount,
+body.dark #filterCount,
+body.dark-theme #filterCount {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+html[data-theme="dark"] .pub-title,
+html[data-theme="dark"] .pub-authors,
+html[data-theme="dark"] .pub-journal,
+html[data-theme="dark"] .pub-year,
+body.dark .pub-title,
+body.dark .pub-authors,
+body.dark .pub-journal,
+body.dark .pub-year,
+body.dark-theme .pub-title,
+body.dark-theme .pub-authors,
+body.dark-theme .pub-journal,
+body.dark-theme .pub-year {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+html[data-theme="dark"] .pub-icons a,
+body.dark .pub-icons a,
+body.dark-theme .pub-icons a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+html[data-theme="dark"] .pub-icons a:hover,
+body.dark .pub-icons a:hover,
+body.dark-theme .pub-icons a:hover {
+  color: #fff;
+}
+
+/* ===============================================
+   Smaller typography only on publications page
+=============================================== */
+
+body.publications-page .page__content {
+  font-size: 0.9rem;
+}
+
+body.publications-page .masthead,
+body.publications-page .greedy-nav,
+body.publications-page .greedy-nav a,
+body.publications-page .masthead__menu-item a,
+body.publications-page .site-title,
+body.publications-page .site-title a {
+  font-size: 0.88rem;
+}
+
+body.publications-page .filter-label {
+  font-size: 0.8rem;
+}
+
+body.publications-page .pill {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+}
+
+body.publications-page #filterCount {
+  font-size: 0.8rem;
+}
+
+body.publications-page .pub-title,
+body.publications-page .pub-year {
+  font-size: 0.925rem;
+}
+
+body.publications-page .pub-authors,
+body.publications-page .pub-journal {
+  font-size: 0.8rem;
+}
+
+body.publications-page .pub-icons a {
+  font-size: 0.85rem;
+}
+
+/* ===============================================
+   Responsive
+=============================================== */
+
+@media (max-width: 768px) {
+  .filter-label {
+    width: 100%;
+  }
+
+  .pub-item {
+    grid-template-columns: 56px 1fr;
+    column-gap: 0.75rem;
+    margin-bottom: 1.3rem;
+  }
+}
