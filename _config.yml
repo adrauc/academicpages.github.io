@@ -29,7 +29,7 @@ author:
   bio              : "Professor,<br>National Taiwan University"
   location         : "Taipei, Taiwan"
   employer         : # Employer
-  uri              : "http://www.journalism.ntu.edu.tw/RauchfleischA.html"
+  uri              : # URL
   email            : "adrian@ntu.edu.tw" 
 
   # Academic websites
