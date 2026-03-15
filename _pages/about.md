@@ -7,19 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-Adrian Rauchfleisch is a Professor at the [Graduate Institute of Journalism](http://www.journalism.ntu.edu.tw/Journalism/Default.html), [National Taiwan University](https://www.ntu.edu.tw/english/).
+I am a Professor at the [Graduate Institute of Journalism](http://www.journalism.ntu.edu.tw/Journalism/Default.html), [National Taiwan University](https://www.ntu.edu.tw/english/).
 
-His research focuses on politics, technology, and journalism across Asia, Europe, and the United States. He studies how the internet, social media, platform algorithms, and artificial intelligence affect journalism, politics, and society.
+My research focuses on politics, technology, and journalism across Asia, Europe, and the United States. I study how the internet, social media, platform algorithms, and artificial intelligence affect journalism, politics, and society.
 
-In 2026, he received the [Outstanding Research Award](https://www.nstc.gov.tw/folksonomy/list/e6dfdec1-61a9-4fb0-a903-25edbf38422e?l=ch&fbclid=IwY2xjawQecnpleHRuA2FlbQIxMABicmlkETFZcXRHMGFGS1hCQmtUdWtEc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtf_aOIFFFmSF8QzaLorYNCr1ul0TIiNFuG69-84Ed_NxtHura8t6ZYwnPBO_aem_9uheTvCfnGSDwnJBFoAWXw) (傑出研究獎) from the National Science and Technology Council, Taiwan.
+In 2026, I received the [Outstanding Research Award](https://www.nstc.gov.tw/folksonomy/list/e6dfdec1-61a9-4fb0-a903-25edbf38422e?l=ch&fbclid=IwY2xjawQecnpleHRuA2FlbQIxMABicmlkETFZcXRHMGFGS1hCQmtUdWtEc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtf_aOIFFFmSF8QzaLorYNCr1ul0TIiNFuG69-84Ed_NxtHura8t6ZYwnPBO_aem_9uheTvCfnGSDwnJBFoAWXw) (傑出研究獎) from the National Science and Technology Council, Taiwan.
 
-He is currently Principal Investigator of the National Science and Technology Council’s International Outstanding Young Scholars project (國際年輕傑出學者研究計畫), _Global Perspectives on AI: Assessing Public Discourse, Opinion, and Big Tech’s Role_.
+I am currently Principal Investigator of the National Science and Technology Council’s International Outstanding Young Scholars project (國際年輕傑出學者研究計畫), _Global Perspectives on AI: Assessing Public Discourse, Opinion, and Big Tech’s Role_.
 
-His work has been published in _Political Communication_, _New Media & Society_, _Political Behavior_, _Social Media + Society_, _Digital Journalism_, _Communication Research_, _Government Information Quarterly_, _Telematics and Informatics_, _Information, Communication & Society_, among other outlets.
+My work has been published in _Political Communication_, _New Media & Society_, _Political Behavior_, _Social Media + Society_, _Digital Journalism_, _Communication Research_, _Government Information Quarterly_, _Telematics and Informatics_, _Information, Communication & Society_, among other outlets.
 
-He is an Associate Editor of _EPJ Data Science_ and serves on the editorial boards of _New Media & Society_, _Communication Theory_, _The International Journal of Press/Politics_, and _Journal of Quantitative Description: Digital Media_.
+I am an associate editor of _EPJ Data Science_  and serve on the editorial boards of _New Media & Society_, _Communication Theory_, _The International Journal of Press/Politics_, and _Journal of Quantitative Description: Digital Media_.
 
-He holds a B.A., M.A., and Ph.D. from the University of Zurich.
+I received my B.A., M.A., and Ph.D. from the University of Zurich.
+
+If you are interested in research collaboration or supervision, feel free to browse my /publications/ and get in touch by email. Journalists looking for comment on any of my research areas are also welcome to reach out directly.
 
 ## Featured articles
 * Andreas Jungherr, <span class="pi-name">Adrian Rauchfleisch</span>, and Alexander Wuttke (2026). [Artificial intelligence in election campaigns: Perceptions, penalties, and implications](https://doi.org/10.1080/10584609.2025.2611913). _Political Communication_.
