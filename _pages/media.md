@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <button type="button" class="pill is-active" data-value="all">All</button>
     <button type="button" class="pill" data-value="My Research in the Media">My Research in the Media</button>
     <button type="button" class="pill" data-value="Articles & Commentary">Articles & Commentary</button>
+    <button type="button" class="pill" data-value="Policy Briefs & Reports">Policy Briefs & Reports</button>
   </div>
 </div>
 
