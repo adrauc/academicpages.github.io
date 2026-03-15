@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Peer-reviewed journal articles"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -12,6 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
   document.body.classList.add("publications-page");
 });
 </script>
+
+<div class="filter-row">
+  <div class="filter-label">TYPE:</div>
+  <div class="filter-group" data-filter-group="type">
+    <button type="button" class="pill is-active" data-value="all">All</button>
+    <button type="button" class="pill" data-value="Journal Article">Journal Article</button>
+    <button type="button" class="pill" data-value="Book Chapter">Book Chapter</button>
+    <button type="button" class="pill" data-value="Working Paper">Working Paper</button>
+  </div>
+</div>
 
 <div class="filter-row">
   <div class="filter-label">TOPIC:</div>
@@ -70,7 +80,8 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="pub-item"
        data-topic="{{ pub.topic | escape }}"
        data-method="{{ pub.method | escape }}"
-       data-context="{{ pub.context | escape }}">
+       data-context="{{ pub.context | escape }}"
+       data-type="{{ pub.type | escape }}">
 
       <div class="pub-year">
         {{ pub.year | default: "—" }}
@@ -126,7 +137,8 @@ document.addEventListener("DOMContentLoaded", function () {
 const state = {
 topic: new Set(["all"]),
 method: new Set(["all"]),
-context: new Set(["all"])
+context: new Set(["all"]),
+type: new Set(["all"])
 };
 
 const groups = document.querySelectorAll(".filter-group");
@@ -164,11 +176,13 @@ items.forEach(item=>{
 const topic=splitTags(item.dataset.topic);
 const method=splitTags(item.dataset.method);
 const context=splitTags(item.dataset.context);
+const type=splitTags(item.dataset.type);
 
 const ok =
 match(topic,state.topic) &&
 match(method,state.method) &&
-match(context,state.context);
+match(context,state.context) &&
+match(type,state.type);
 
 item.style.display = ok ? "" : "none";
 
@@ -227,6 +241,7 @@ e.preventDefault();
 resetGroup("topic");
 resetGroup("method");
 resetGroup("context");
+resetGroup("type");
 applyFilters();
 });
 
