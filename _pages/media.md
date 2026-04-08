@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
     <button type="button" class="pill" data-value="Journalism">Journalism</button>
     <button type="button" class="pill" data-value="Science Communication">Science Communication</button>
     <button type="button" class="pill" data-value="Social Media">Social Media</button>
-    <button type="button" class="pill" data-value="Public Opinion">Public Opinion</button>
   </div>
 </div>
 
