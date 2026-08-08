@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Professor at the [Graduate Institute of Journalism](http://www.journalism.ntu.edu.tw/Journalism/Default.html), [National Taiwan University](https://www.ntu.edu.tw/english/).
+I am a Distinguished Professor at the [Graduate Institute of Journalism](http://www.journalism.ntu.edu.tw/Journalism/Default.html), [National Taiwan University](https://www.ntu.edu.tw/english/).
 
 My research focuses on politics, technology, and journalism across Asia, Europe, and the United States. I study how the internet, social media, platform algorithms, and artificial intelligence affect journalism, politics, and society.
 
