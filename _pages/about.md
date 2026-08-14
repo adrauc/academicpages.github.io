@@ -24,6 +24,7 @@ I received my B.A., M.A., and Ph.D. from the University of Zurich.
 If you are interested in research collaboration or supervision, feel free to browse my [publications](/publications/) and get in touch by email. Journalists looking for comment on any of my research areas are also welcome to reach out directly.
 
 ## Featured articles
+* <span class="pi-name">Adrian Rauchfleisch</span> and Andreas Jungherr (2026). [Toward Meaningful Transparency for AI Chatbots: Disclosing Persuasive Intent Reduces Persuasion](https://arxiv.org/abs/2608.11794). _Working paper_.
 * <span class="pi-name">Adrian Rauchfleisch</span> and Andreas Jungherr (2026). [The politics of artificial intelligence alignment: Public reactions to AI moderation in the case of Google's Gemini](https://doi.org/10.1177/14614448261449271). _New Media & Society_.
 * Andreas Jungherr, <span class="pi-name">Adrian Rauchfleisch</span>, and Alexander Wuttke (2026). [Artificial intelligence in election campaigns: Perceptions, penalties, and implications](https://doi.org/10.1080/10584609.2025.2611913). _Political Communication_.
 * <span class="pi-name">Adrian Rauchfleisch</span>, Joshua Philip Suarez, Nikka Marie Sales, and Andreas Jungherr (2025). [Winning and losing with Artificial Intelligence: What public discourse about ChatGPT tells us about how societies make sense of technological change](https://doi.org/10.1016/j.tele.2025.102344). _Telematics and Informatics_.
